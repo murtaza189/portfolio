@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>Murtaza Khalid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="kleur">
+
+<div id="switchmode" class="active">
+<div class="smtext">Night Mode</div>
+<div class="switchbutton"><span></span></div>
+</div>
+
+<!-- Page Container -->
+<div class="page" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="grid"> 
+  
+    <!-- Left Column -->
+    <div class="links">       
+      <div class="kleur">
+        <div class="display">
+          <img src="images/me.jpg" style="width:100%">
+          <div class="onderimage"> 
+            
+          </div>
+        </div>
+        <div class="gegevens">
+          <p><i class="fa fa-briefcase fa-fw logos"></i>Back-end and Front-end developer</p> 
+          <p><i class="fa fa-home fa-fw logos"></i>Amsterdam, The Netherlands</p> 
+          <p><i class="fa fa-envelope fa-fw logos"></i>murtazawaseem1999@hotmail.com</p>
+          <p><i class="fa fa-phone fa-fw logos"></i>+31 6 85 16 93</p> 
+          <hr>
+
+          <p class="skill1"><b><i class="fa fa-asterisk fa-fw asterisk"></i>Skills</b></p>
+          <p>HTML5 AND CSS3</p>
+          <div class="conskills">
+            <div class="skillsbar" style="width:90%">90%</div>
+          </div>
+          <p>Python</p>
+          <div class="conskills">
+            <div class="skillsbar" style="width:10%">10%</div>
+          </div>
+          <p>PHP</p>
+          <div class="conskills">
+            <div class="skillsbar" style="width:10%">10%</div>
+          </div>
+          <p>Javascript</p>
+          <div class="conskills">
+            <div class="skillsbar" style="width:10%">10%</div>
+          </div>
+          <p>Java</p>
+          <div class="conskills">
+            <div class="skillsbar" style="width:10%">10%</div>
+          </div>
+          <br>
+
+          <p class="languages"><b><i class="fa fa-globe fa-fw asterisk"></i>Languages</b></p> 
+          <p>English</p>
+          <div class="ondertaal">
+            <div class="taalbar" style="height:24px;width:100%"></div>
+          </div>
+          <p>Dutch</p>
+          <div class="ondertaal">
+            <div class="taalbar" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="onderrcolum">
+    
+      <div class="rechts2">
+        <h2 class="rechtsh2"><i class="fa fa-suitcase fa-fw naasth2"></i>My Work</h2>
+        <div class="contai">
+          <h5 class="opacity">
+          <b>HTML5 AND CSS3</b></h5>
+          <a href="portfolio/boek/index.html">
+            <div class="foto">
+                <img src="images/marathon.PNG">
+                Marathon Opdracht
+            </div>
+        </a>
+        <a href="portfolio/scrum/index.html">
+            <div class="foto">
+                <img src="images/scrum.PNG">
+                Scrum Opdracht
+            </div>
+        </a>
+          <h6 class="rechtskleur">
+          <hr>
+        </div>
+        <div class="contai">
+          <h5 class="opacity"><b>Python And Java</b></h5><h6>Click to download</h6><a href="portfolio/python/hangman2.py" download><div class="foto"><img src="images/python.png">Opdracht Hangman</div></a><a href="portfolio/java/Gezondheidstest.java" download><div class="foto"><img src="images/java.png">Opdracht Gezonheidstest </div></a>
+          <h6 class="rechtskleur">
+          <hr>
+        </div>
+        <div class="contai">
+          <h5 class="opacity"><b>PHP And Javascript</b></h5><a href="portfolio/javascript/js06.html"><div class="foto"><img src="images/js.png">Opdracht Schoolkosten</div></a><a href="portfolio/php/Lab05.html"><div class="foto"><img src="images/php.png">Opdracht Formulier verwerken</div></a>
+          <h6 class="rechtskleur">
+          <hr>
+        </div>
+      </div>
+
+      <div class="rechts3">
+        <h2 class="rechtsh2"><i class="fa fa-certificate fa-fw naasth2"></i>About Me</h2> 
+        <div class="contai">
+          <h5 class="opacity"><b>Me, Myself & I</b></h5>
+          <h6 class="rechtskleur">
+          <p>Hey what's up? Full name's Murtaza Waseem Khalid. I'm a front-end and back-end developer born in pakistan & raised in The Netherlands, and currently studying in Amsterdam at <a href="https://www.mbostad.nl/opleidingen/roc-van-amsterdam/mbo-college-zuidoost">MBO College Zuidoost</a>.
+
+Fluent in <em>HTML5</em> <em>CSS3</em> and improving on my <em>JavaScript</em>, <em>PHP</em> every day. I know my way around <em>WordPress</em>.</p> 
+          <hr>
+        </div>
+     
+        <div class="contai">
+          <h5 class="opacity"><b>My Resume</b></h5>
+          <h6 class="rechtskleur"></b></h5><a href="portfolio/cv.pdf"><img src="images/resume.png"></a>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+<script>
+
+    
+
+</script>
+
+
+</body>
+</html>

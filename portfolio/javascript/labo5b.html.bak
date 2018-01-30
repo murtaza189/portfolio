@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <h1>lab05b</h1>
+    <p id="demo">My first paragraph.</p>
+    <script>
+       var datvandaag = new Date(2017);
+       var birthday =  new Date("1999 09 30");
+       document.getElementById("demo").innerHTML = "geboortedatum:" + birthday + "<br>ik ben nu " + (datvandaag-birthday).toFixed(0) +" jaar oud";
+    </script>
+    </body>
+</html> 

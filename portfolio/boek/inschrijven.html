@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl">
+  
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="description" content="marathon amsterdam">
+    <meta name="keywords" content="marathon, resultaten, inschrijven">
+    <meta name="autor" content="Murtaza Khalid">
+    <title>Marathon van Amsterdam</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+ <section id="content">
+    <header>
+        <hgroup>
+            <h1> Amsterdam Marathon</h1>
+        </hgroup>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#top">inschrijven</a></li>
+            <li><a href="nieuwsbrief.html">nieuwsbrief</a></li>
+            <li><a href="resultaten.html">resultaten</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="intro">
+     <div id="rodelogo" class="logo">
+     <span id="iam">I am</span>sterdam</div>
+     <div id="blauwelogo" class="logo">
+     <span id="iam">I am</span>sterdam</div>
+     <div id="groenelogo" class="logo">
+     <span id="iam">I am</span>sterdam</div>
+    </div>
+   <article class="rondehoeken">
+   <header>
+        <div class="streep1"></div>
+        <div class="streep2"></div>
+        <div class="streep3"></div>
+        <div class="streep4"></div>
+        <div class="streep5"></div>
+        <h1>Inschrijven</h1>
+   </header>
+   <div id="artikel-container">
+   <div id="form-container">
+   <form class="rondehoeken" name="inschrijfformulier" action="mailto:murtazawaseem1999@hotmail.com" method="post">
+     <fieldset>
+            <legend>Check een of meer sponsors</legend>
+            Voedselbank:
+            <input type="checkbox" name="voedselbank" id="voedselbank" value="v" />
+            Stichtingx:
+            <input type="checkbox" name="stichtingx" id="stichtingx" value="x" />
+            Stichtingz:
+            <input type="checkbox" name="stichtingz" id="stichtingz" value="z" />
+        </fieldset>
+        <fieldset>
+            <legend>Ik loop mee als</legend>
+            Individu:
+            <input type="radio" name="deelnemer" id="individu" value="i" />
+            Groep:
+            <input type="radio" name="deelnemer" id="groep" value="g" />
+            Bedrijf:
+            <input type="radio" name="deelnemer" id="bedrijf" value="b" />
+        </fieldset>
+        <fieldset>
+            <legend>Voer je gegevens in</legend>
+            <label for="email">E-mailadres</label>
+            <input required type="email" id="email" name="email" placeholder="email" />
+            <label for="mobiele telefoon">Mobiele telefoon</label>
+            <input required type="text" id="mobiele telefoon" name="mobiele telefoon" placeholder="06" />
+            <label for="naam">Naam</label>
+            <input required type="text"  id="naam" name="naam" placeholder="naam" />
+            <label for="adres">Adres</label>
+            <input required type="text" id="adres" name="adres" placeholder="adres" />
+            <label for="postcode">Postcode</label>
+            <input required type="text" id="postcode" name="postcode" placeholder="postcode" />
+            <label for="plaats">Plaats</label>
+            <input type="text" name="plaats" id="plaats" list="steden">
+        <datalist id="steden">
+            <option value="Almere">
+            <option value="Amstelveen">
+            <option value="Amsterdam">
+            <option value="Den Haag">
+            <option value="Hilversum">
+            <option value="Leeuwarden">
+            <option value="Maastricht">
+            <option value="Naarden">
+            <option value="Utrecht">
+        </datalist>
+        
+        <label for="onderdeel">Onderdeel</label>
+        <select name="onderdeel">
+            <option value="marathon">Marathon</option>
+            <option value="halve">Halve marathon</option>
+            <option value="8">8 km</option>
+            <option value="kids">Olympic kids 1km</option>
+        </select>
+        
+        <label for="ranking">Ranking</label>
+            <input type="range" name="ranking" id="ranking" min="1" max="5">
+        <label for="reactie">Reactie</label>
+        <textarea cols="35" rows="4" name="reactie" id="reactie" placeholder="mail ons je reactie">
+        </textarea>
+        <br />
+        <input type="submit" id="submit" name="submit" value="Verzenden" />
+        </fieldset>
+
+   </form>
+   
+   </div> <!-- id="form-container"-->
+   </div> <!-- id="artikel-container" -->
+
+   
+   </div> <!--artikel-container-->
+   </article>
+   
+   <aside>
+   <div id="video-container" >
+   <video controls width="150" height="250" preload id="video"
+   poster="images/ren.jpg"">
+   
+   <source src='video/.webm'type='video/webm'/>
+   <source src='video/ogv' type='video/ogg'/>
+   <source src='video/marathon.mp4'type='video/mp4'/>
+   <!--fallback to flash: -->
+   <object type="application/x-shockwave-flash" width="150" height="250"
+   data="player.swf" >
+   <param name="movie" value="player.swf" >
+   <param name="allowFullScreen" value="true" >
+   <param name="flashvars"
+   value="comfig={'clip':{'url':'video/wildlife.
+   mp4','<autoPlay':false}}">
+   <img scr="images/videoposter.jpg" id="video-still" width="150"
+   height="250" alt="video" title="Amsterdam Marathon">
+   </object>
+   </video>
+   </div> <!-- /#video-container -->
+  
+   <div id="advert1"  class="rondehoeken" >
+        <a href="#"><img id="recylen" src="images/recylen.jpg" width="50px" alt="recylen">
+        <br />Recyclen!<br /><br /></a></div>
+        
+   <div id="advert2" class="rondehoeken" >
+   <a href="#" ><img id=snickers" src="http://www.tonyschocolonely.com/wp-content/uploads/2013/04/Tonys_Rood.png" width="130px" alt="snickers"/></a>
+   </div>
+   </aside>
+   <footer>
+            <ul class="galerij">
+            <li><a href="#"><img src="images/fissa.jpg" /></a></li>
+            <li><a href="#"><img src="images/runner1.jpg" /></a></li>
+            <li><a href="#"><img src="images/random.jpg" /></a></li>
+            <li><a href="#"><img src="images/ren.jpg" /></a></li>
+            </ul>
+            <br /><br /><br /><br />
+        <small>&copy; Marathon van Amsterdam </small>
+ </footer>
+    
+ </section> <!-- id="content"-->
+</body>
+</html>

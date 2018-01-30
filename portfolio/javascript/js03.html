@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>js03</title>
+    </head>
+    <body>
+    <h1>What Can JavaScript Do?</h1>
+    <p>JavaScript can change HTML attributes.</p>
+    <p>In this case JavaScript changes the src (source) attribute of an image.</p>
+    <button onclick="document.getElementById('myImage1').src='js3_images/pic_bulbon.gif'">Lamp aan</button>
+    <img id="myImage1" src="js3_images\pic_bulboff.gif" style="width:100px"
+    onmouseout='document.getElementById("myImage1").src="js3_images/pic_bulboff.gif"' 
+    onmouseover="document.getElementById('myImage1').src='js3_images/pic_bulbon.gif'">
+    <button onclick='document.getElementById("myImage1").src="js3_images/pic_bulboff.gif"'>Lamp uit</button>
+    <hr>
+
+    <h1>variant 1</h1>
+    <p>Mouse over de lamp om hem aan / uit te doen</p>
+    <hr>
+
+    <h1>variant 2</h1>
+    <p id="demo2">Klik de schakelaar voor lamp aan; dubbelklik voor lamp uit</p>
+    <img id="myImage2" src="js3_images\schakelaar.jpg" 
+    onclick='document.getElementById("myImage1").src="js3_images/pic_bulbon.gif"' 
+    ondblclick='document.getElementById("myImage1").src="js3_images/pic_bulboff.gif"'>
+    <hr>
+    <h1>variant 3</h1>
+    <p>Klik de aan-uit knop voor lamp aan; dubbelklik voor lamp uit</p>
+    <img id="Image4" src="js3_images\aan.jpg" 
+    onclick='document.getElementById("myImage1").src="js3_images/pic_bulbon.gif";document.getElementById("Image4").src="js3_images/aan.jpg"'
+    ondblclick='document.getElementById("myImage1").src="js3_images/pic_bulboff.gif";document.getElementById("Image4").src="js3_images/uit.jpg"'>
+    </body>
+</html>

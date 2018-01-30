@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 6</title>
+</head>
+<body style="font-family: Courier New;">
+    <center>
+        <div style="width: 760px; height: 100%; ">
+        <h1 id="h1"></h1>
+        <br>
+        <hr>
+        <p id="left-side" style="float: left; text-align: left;"></p>
+        <p id="right-side" style="float: right; text-align: right;"></p>
+        </div>
+    </center>
+    <script>
+        var voornaam = prompt("Voornaam invullen aub.");
+        var achternaam = prompt("Achternaam invullen aub.");
+        var schoolgeld = parseInt(1000);
+        var boekengeld = prompt("bedrag van uw boekengeld invullen aub.");
+        boekengeld = parseInt(boekengeld);
+        var betalen = schoolgeld + boekengeld;
+        var studiefinanciering = parseInt(600);
+        var totaal = betalen - studiefinanciering;
+        var volledigenaam = voornaam + " " + achternaam;
+        document.getElementById("h1").innerHTML = "Opleidingskosten voor " + volledigenaam;
+        document.getElementById("left-side").innerHTML = "Schoolgeld:<br>Boekengeld:<br><br>Betalen:<br>studiefinanciering:<br><br>Totaal:";
+        document.getElementById("right-side").innerHTML =   schoolgeld.toFixed(2) + 
+                                                            "<br>" + boekengeld.toFixed(2) + 
+                                                            "<br>" + "-------" + "<br>" + 
+                                                            betalen.toFixed(2) + "<br>" + 
+                                                            studiefinanciering.toFixed(2) + 
+                                                            "<br>" + "-------" + "<br>" +
+                                                            totaal.toFixed(2);
+    </script>
+</body>
+</html>

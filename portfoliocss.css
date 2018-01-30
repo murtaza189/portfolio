@@ -1,0 +1,117 @@
+
+
+.kleur{
+    color:#000;
+    background-color:#f1f1f1;
+    }
+.page{
+    max-width:980px;
+    margin:auto;
+    margin-top:16px
+    }
+/*.grid{
+    padding:0 8px;
+    }*/
+    
+.links{
+    padding:0 8px;
+} 
+  
+.kleur{
+    color:#000;
+    background-color:#fff;
+    color:#757575;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    }
+.display{
+    position:relative;
+    }
+
+.gegevens{
+    padding:0.01em 16px;
+    }
+.skill1{
+    font-size:18px;
+    }
+.conskills{
+    color:#000;
+    background-color:#f1f1f1;
+    border-radius:16px;
+    font-size:12px;
+    }
+.skillsbar{
+    padding:0.01em 16px;
+    text-align:center;
+    border-radius:16px;
+    color:#fff;
+    background-color:#009688;
+    }
+.ondertaal{
+    color:#000;
+    background-color:#f1f1f1;
+    border-radius:16px;
+    }
+.taalbar{
+    border-radius:16px;
+    color:#fff;
+    background-color:#009688;
+    }
+/*.rechts{
+    padding:0 8px;
+    } */
+.rechts2{
+    padding:0.01em 16px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color:#000;
+    background-color:#fff;
+    margin-bottom:16px;
+    }
+.contai{
+    padding:0.01em 16px;
+   }
+.opacity{
+    opacity:0.60;
+    }
+.rechtskleur{
+    color:#009688;
+   }
+.rechts3{
+    padding:0.01em 16px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color:#000;
+    background-color:#fff;
+}
+.rechtsh2{
+    color:#757575;
+    padding-top:16pxt;
+    padding-bottom:16px;
+}
+.logos{
+    width:1.28571429em;
+    text-align:center;
+    margin-right:16px;
+    font-size:18px;
+    color:#009688;
+    }
+.mright{
+    margin-right:16px;
+}
+.onderimage{
+    position:absolute;
+    left:0;
+    bottom:0;
+    padding:0.01em 16px;
+    color:#000;
+}
+.asterisk{
+    margin-right:16px;
+    color:#009688;
+}
+.naasth2{
+    margin-right:16px;
+    font-size:36px;
+    color:#009688;
+}
+.upengels{
+    font-size:18px;
+    

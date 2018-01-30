@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <h1>My First Web Page</h1>
+    <p id="demo">My first paragraph.</p>
+    <script>
+       var datvandaag = new Date(2017,02,16);
+       var dateinde = new Date(2017,03,21);
+       document.getElementById("demo").innerHTML = "nog "+ ((dateinde-datvandaag)/86400000).toFixed(0) +" dagen te gaan tot einddatum";
+    </script>
+    </body>
+</html> 
